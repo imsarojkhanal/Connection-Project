@@ -1,0 +1,15 @@
+Create Database [ConnectDatabase]  --Create Database 
+-----------------------------------------------------------
+
+
+USE [ConnectDatabase] ------------Create Table 
+GO
+
+CREATE TABLE [dbo].[UserLogin](
+	[LoginId] [int] NOT NULL,
+	[LoginUserName] [nvarchar](50) NOT NULL,
+	[LoginPassword] [nvarchar](50) NULL
+) ON [PRIMARY]
+
+
+
